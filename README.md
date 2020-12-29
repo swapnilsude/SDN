@@ -12,3 +12,6 @@ Used python program to process and get following data:
   - Total number of packets in each direction       
   - Total amount of traffic in each direction        
   - Response time (measured from SYN packet to the last packet in the opposite direction)     
+   
+## Mininet Sample Topology
+Python program to create a linear network programmatically with 20 switches in tandem named sw1 to sw10. Connected one host to each switch such that the host connected to switch sw<i> is named h<i> with the delay set between sw<i> and h<i> to i*10ms and the delay for links between switches to 5ms. 
